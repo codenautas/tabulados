@@ -1,0 +1,7 @@
+{
+  "psql": "C:\\Program Files\\PostgreSQL\\16\\bin\\psql.exe",
+  "operativo": "pcetoi",
+  "estadoDesde": 77,
+  "origen":  { "host": "localhost", "port": 5432, "user": "postgres", "password": "TU_PASSWORD", "database": "etoi262_db" },
+  "destino": { "host": "localhost", "port": 5432, "user": "postgres", "password": "TU_PASSWORD", "database": "pcetoi_prueba" }
+}

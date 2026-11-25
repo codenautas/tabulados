@@ -1,0 +1,22 @@
+{
+  "name": "tabulados",
+  "version": "0.0.1",
+  "description": "Prototipo de motor de tabulados (cuadros estadísticos) para migrar procesamiento de SIEH 1 a dmencu",
+  "private": true,
+  "license": "MIT",
+  "main": "dist/motor.js",
+  "scripts": {
+    "build": "tsc -p .",
+    "comparar": "node dist/comparar.js",
+    "plana": "node dist/plana.js",
+    "copiar-casos": "node dist/copiar-casos.js",
+    "comparar-calculadas": "node dist/comparar-calculadas.js"
+  },
+  "devDependencies": {
+    "@types/node": "^20.3.0",
+    "typescript": "^5.9.2"
+  },
+  "engines": {
+    "node": ">= 20"
+  }
+}

@@ -1,0 +1,7 @@
+node_modules/
+local-config.json
+local-*.json
+salida/
+dist/
+# datos bajados de la API de CEPAL (grandes, se pueden volver a bajar)
+cepal/
