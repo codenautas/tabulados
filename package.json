@@ -1,9 +1,10 @@
 {
   "name": "tabulados",
   "version": "0.0.1",
-  "description": "Prototipo de motor de tabulados (cuadros estadísticos) para migrar procesamiento de SIEH 1 a dmencu",
+  "description": "Tabulados: cuadros estadísticos a partir de los datos de los operativos",
   "private": true,
   "license": "MIT",
+  "repository": "codenautas/tabulados",
   "main": "dist/motor.js",
   "scripts": {
     "build": "tsc -p .",
