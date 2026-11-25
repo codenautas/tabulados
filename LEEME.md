@@ -4,7 +4,7 @@ Motor de cuadros estadísticos (tabulados) para migrar el procesamiento de SIEH 
 Diseño completo: documento "Procesamiento SIEH 1 → dmencu: análisis y diseño".
 
 Esta versión es un prototipo para validar el motor contra SIEH 1. No se integra todavía con
-dmencu ni con backend-plus, y no tiene repositorio git.
+dmencu ni con backend-plus. Repositorio: https://github.com/codenautas/tabulados
 
 ## Qué hace
 
@@ -20,7 +20,7 @@ Sólo se escriben resultados agregados: no se exportan microdatos.
 
 ## Requisitos
 
-- Node 20 o superior. No hace falta `npm install` para correrlo: `dist/` ya está compilado.
+- Node 20 o superior. Antes de usarlo: `npm install` y `npm run build` (`dist/` no se versiona).
 - PostgreSQL 16 instalado (se usa su `psql.exe`).
 
 ## Paso 1: restaurar la base de ETOI
